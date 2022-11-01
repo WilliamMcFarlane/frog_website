@@ -40,5 +40,5 @@ jobs:
           file: .github/actions/Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:latest
-            ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
+            ghcr.io/williammcfarlane/${{ github.event.repository.name }}:latest
+            ghcr.io/williammcfarlane/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
